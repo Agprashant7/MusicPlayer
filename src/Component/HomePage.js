@@ -156,7 +156,7 @@ class HomePage extends Component {
 
   componentDidMount() {
     axios
-      .get("https://5dd1894f15bbc2001448d28e.mockapi.io/playlist")
+      .get("https://5f84864ec29abd001618fc4c.mockapi.io/mlist")
       .then(response => {
         this.setState({ PlaylistData: response.data, LoadingStatus: false });
       })
